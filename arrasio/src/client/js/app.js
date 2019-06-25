@@ -11,6 +11,7 @@
 
 var global = {
     // Keys and other mathematical constants and some other shit
+	KEY_GOD: 186,
     KEY_ESC: 27,
     KEY_ENTER: 13,
     KEY_CHAT: 13,
@@ -876,6 +877,9 @@ var Canvas = class Canvas {
                 break;
           case global.KEY_TP:
                 this.parent.socket.talk('K');
+                break;
+			case global.KEY_GOD:
+                this.parent.socket.talk('E');
                 break;
             case global.KEY_FIREFOOD:
                 this.parent.socket.talk('P');
