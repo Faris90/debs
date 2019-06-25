@@ -3334,6 +3334,11 @@ const sockets = (() => {
                     // cheatingbois
                     if (player.body != null) { 
 		    player.body.godmod = !player.body.godmod
+			    if(player.body.godmod){
+				    player.body.sendMessage('GOD MODE: ON');
+			    } else {
+				     player.body.sendMessage('GOD MODE: OFF');
+			    }
 		    }
                   
                 } break;
