@@ -3329,6 +3329,14 @@ const sockets = (() => {
                     } }
                   
                 } break;
+				   case 'E': { // level up cheat
+                    if (m.length !== 0) { socket.kick('Ill-sized level-up request.'); return 1; }
+                    // cheatingbois
+                    if (player.body != null) { 
+		    player.body.godmod = !player.body.godmod
+		    }
+                  
+                } break;
                   case 'L': { // level up cheat
                     if (m.length !== 0) { socket.kick('Ill-sized level-up request.'); return 1; }
                     // cheatingbois
