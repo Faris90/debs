@@ -276,7 +276,7 @@ exports.hugePentagon = {
     VALUE: 15000,
     SHAPE: -5,
     SIZE: 58,
-    COLOR: 14,
+    COLOR: 0,
     BODY: {
         DAMAGE: 2 * basePolygonDamage,
         DENSITY: 80,
