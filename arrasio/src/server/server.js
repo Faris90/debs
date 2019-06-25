@@ -2505,7 +2505,7 @@ class Entity {
                 (this.team !== -3 && room.isIn('bas3', loc)) ||
                 (this.team !== -4 && room.isIn('bas4', loc))
             ) { //this.kill();
-	      this.health.amount -= 5;
+	      this.health.amount -= 1;
 	      }
         }
     }
