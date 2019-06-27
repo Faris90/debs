@@ -1,8 +1,5 @@
 {
     "normal": {
-       "teal":"#7adbbc","lgreen":"#b9e87e","orange":"#ff8080","yellow":"#fdf380","lavender":"#b58efd","pink":"#ff00ff","vlgrey":"#ffffff","lgrey":"#aa9f9e","guiwhite":"#ffffff","black":"#484848","blue":"#0000ff","green":"#00ff00","red":"#ff0000","gold":"#ffff00","purple":"#0000ff","magenta":"#8000ff","grey":"#a7a7af","dgrey":"#726f6f","white":"#dbdbdb","guiblack":"#000000","paletteSize":10,"border":"0.5"
-    },
-    "classic": {
         "teal": "#7ADBBC", 
         "lgreen": "#B9E87E", 
         "orange": "#E7896D", 
@@ -25,6 +22,30 @@
         "guiblack": "#000000",
         "paletteSize": 10,
         "border": 0.65
+    },
+    "classic": {
+        "teal": "#8EFFFB", 
+        "lgreen": "#85E37D", 
+        "orange": "#FC7676", 
+        "yellow": "#FFEB8E", 
+        "lavender": "#B58EFF", 
+        "pink": "#F177DD",
+        "vlgrey": "#CDCDCD", 
+        "lgrey": "#999999",
+        "guiwhite": "#FFFFFF",
+        "black": "#525252",
+        "blue": "#00B0E1",
+        "green": "#00E06C",
+        "red": "#F04F54",
+        "gold": "#FFE46B",
+        "purple": "#768CFC",
+        "magenta": "#BE7FF5", 
+        "grey": "#999999",
+        "dgrey": "#545454",
+        "white": "#C0C0C0",
+        "guiblack": "#000000",
+        "paletteSize": 10,
+        "border": 0.5
     },
     "dark": {
         "teal": "#8975B7", 
